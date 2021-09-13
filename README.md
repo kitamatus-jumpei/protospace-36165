@@ -16,7 +16,7 @@
 ### Association
 
 - has_many :comments
-- has_many :prototypes, through: :comments
+- has_many :prototypes
 
 
 
@@ -33,7 +33,7 @@
 ### Association
 
 - has_many :comments
-- has_many :users, through: :comments
+- belong_to :users
 <!-- １対多数 -->
 
 
